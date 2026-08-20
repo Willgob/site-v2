@@ -22,22 +22,22 @@
     })
 </script>
 
-<div class="h-screen bg-red-500 flex items-center justify-center">
+<div class="h-screen bg-ctp-crust flex items-center justify-center">
     <div class="w-3/4 h-full grid grid-cols-5 grid-rows-8 gap-1 p-4">
         <!-- Main Name -->
-        <div class="title col-start-3 row-start-3 col-span-4 row-span-2 bg-[#C9A6F0]"></div>
+        <div class="rounded-br-sm border border-dashed border-[#45475a] title col-start-3 row-start-3 col-span-4 row-span-2 bg-ctp-mantle">Main</div>
 
         <!-- Sydney Map -->
-        <div class="title col-start-5 row-start-1 col-span-2 row-span-2 bg-[#8932ec]"></div>
+        <div class="rounded-tr-sm border border-dashed border-[#45475a] title col-start-5 row-start-1 col-span-2 row-span-2 bg-ctp-mantle">Sydney</div>
 
         <!-- Hackclub -->
-        <div class="title col-start-3 row-start-2 col-span-2 row-span-1 bg-[#8932ec]"></div>
+        <div class="border border-dashed border-[#45475a] title col-start-3 row-start-2 col-span-2 row-span-1 bg-ctp-mantle">HC</div>
 
         <!-- Web Dev -->
-        <div class="title col-start-3 row-start-1 col-span-2 row-span-1 bg-[#8932ec]"></div>
+        <div class="border border-dashed border-[#45475a] title col-start-3 row-start-1 col-span-2 row-span-1 bg-ctp-mantle">Web</div>
 
         <!-- Skills -->
-        <div class="title col-start-1 row-start-1 col-span-2 row-span-4 bg-[#8932ec]"></div>
+        <div class="rounded-bl-sm rounded-tl-sm border border-dashed border-[#45475a] title col-start-1 row-start-1 col-span-2 row-span-4 bg-ctp-mantle">Skills</div>
 
     </div>
 </div>
