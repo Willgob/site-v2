@@ -6,13 +6,19 @@
 
     onMount(() => {
         gsap.registerPlugin(ScrollTrigger) 
-        gsap.from(".title", {
+        gsap.fromTo(".title",
+        {
             scale: 0,
-            opacity: 0,
+            opacity: 0
+        },
+        {
+            scale: 1,
+            opacity: 1,
             duration: 0.67,
             ease: "power2.out",
             stagger: { amount: 0.6, from: "random" }
-            })
+        }
+        );
     })
 </script>
 
@@ -35,3 +41,9 @@
 
     </div>
 </div>
+
+<style>
+  .title {
+    opacity: 0;
+  }
+</style>
