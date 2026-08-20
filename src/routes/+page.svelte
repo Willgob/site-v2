@@ -23,9 +23,9 @@
 </script>
 
 <div class="h-screen bg-ctp-crust flex items-center justify-center">
-    <div class="w-3/4 h-full grid grid-cols-5 grid-rows-8 gap-1 p-4">
+    <div class="w-3/4 h-full grid grid-cols-5 grid-rows-4 gap-1 p-4">
         <!-- Main Name -->
-        <div class="rounded-br-sm border border-dashed border-[#45475a] title col-start-3 row-start-3 col-span-4 row-span-2 bg-ctp-mantle">Main</div>
+        <div class="rounded-br-sm border border-dashed border-[#45475a] title col-start-3 row-start-3 col-span-3 row-span-2 bg-ctp-mantle">Main</div>
 
         <!-- Sydney Map -->
         <div class="rounded-tr-sm border border-dashed border-[#45475a] title col-start-5 row-start-1 col-span-2 row-span-2 bg-ctp-mantle">Sydney</div>
