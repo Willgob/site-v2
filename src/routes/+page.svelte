@@ -8,7 +8,7 @@
         gsap.registerPlugin(ScrollTrigger) 
         gsap.fromTo(".title",
         {
-            scale: 0,
+            scale: 1,
             opacity: 0
         },
         {
